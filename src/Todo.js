@@ -15,7 +15,7 @@ const Todo = () => {
     setTodoList([...todoList, newTodos]);
     setInput("");
   };
-
+// delete function
   const onDelete = (id) => {
     setTodoList(todoList.filter((t) => t.id != id));
   };
