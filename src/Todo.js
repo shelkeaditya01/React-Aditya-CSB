@@ -2,7 +2,7 @@ import { useState } from "react";
 const Todo = () => {
   const [input, setInput] = useState("");
   const [todoList, setTodoList] = useState([]);
-// add fucntion
+// add fucntion +++++
   const onAdd = () => {
     if (input.trim() === "") {
       return;
