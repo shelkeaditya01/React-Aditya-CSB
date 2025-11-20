@@ -3,6 +3,7 @@ const Todo = () => {
   const [input, setInput] = useState("");
   const [todoList, setTodoList] = useState([]);
 
+  //onAdd Function
   const onAdd = () => {
     if (input.trim() === "") {
       return;
