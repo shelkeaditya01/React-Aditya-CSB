@@ -3,6 +3,8 @@ const TemperatureConvertor = () => {
   const [degree, setDegree] = useState("");
   const [fh, setFh] = useState("");
 
+
+  //celcius to the fahrenheit
   const cToF = () => {
     if (degree === "") {
       return;
