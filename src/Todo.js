@@ -4,6 +4,7 @@ const Todo = () => {
   const [todoList, setTodoList] = useState([]);
 
   //onAdd Function
+// add fucntion +++++
   const onAdd = () => {
     if (input.trim() === "") {
       return;
@@ -16,7 +17,7 @@ const Todo = () => {
     setTodoList([...todoList, newTodos]);
     setInput("");
   };
-
+// delete function
   const onDelete = (id) => {
     setTodoList(todoList.filter((t) => t.id != id));
   };
